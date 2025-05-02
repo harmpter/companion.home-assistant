@@ -250,7 +250,7 @@ These sensors use the [AudioManager API](https://developer.android.com/reference
 | `is_mic_muted` | Boolean value if the microphone is currently muted, Android 10+ will update as this value changes. |
 | `is_music_active` | Boolean value if the device is actively playing music, this sensor will update during the normal interval. |
 | `is_speakerphone_on` | Boolean value if the device speakerphone is enabled, Android 10+ will update as this value changes. |
-| `ringer_mode` | The ringer mode on the device, possible values are `normal`, `vibriate` or `silent`. This sensor will update as soon as the ringer mode changes. |
+| `ringer_mode` | The ringer mode on the device, possible values are `normal`, `vibriate` or `silent`. This sensor will update as soon as the ringer mode changes.<br />On Android 9 and newer, the ringer mode will always be `silent` when do not disturb is turned on. |
 | `volume_level_*` | The current device volume level for the given volume attributes: `accessibility`, `alarm`, `call`, `dtmf`, `music`, `notification`, `ring`, `system`. These sensors will update during the normal interval, or as soon as a change is detected. |
 
 
@@ -499,11 +499,17 @@ These sensors will reflect health and fitness data stored by other apps on your 
 | --------- | ---- | --------- |
 | `health_connect_active_calories_burned` | kilocalories | The last estimate for number of active calories burned, excluding basal metabolic rate (BMR). |
 | `health_connect_blood_glucose` | milligrams per deciliter | The last recorded blood glucose reading. |
+| `health_connect_body_fat` | percent | The last recorded body fat percentage. <span class='beta'>BETA</span> |
 | `health_connect_diastolic_blood_pressure` | millimeters of Mercury | The last recorded diastolic blood pressure. |
 | `health_connect_distance` | meters | Total distance traveled since midnight. |
 | `health_connect_elevation_gained` | meters | Total elevation gained since midnight. |
 | `health_connect_floors_climbed` | floors | Total floors climbed since midnight. |
 | `health_connect_heart_rate` | beats per minute | The last recorded heart rate. |
+| `health_connect_heart_rate_variability` | milliseconds | The last recorded heart rate variability. <span class='beta'>BETA</span> |
+| `health_connect_oxygen_saturation` | percent | The last recorded oxygen saturation percentage. <span class='beta'>BETA</span> |
+| `health_connect_respiratory_rate` | breaths per minute | The last recorded respiratory rate. <span class='beta'>BETA</span> |
+| `health_connect_resting_heart_rate` | beats per minute | The last recorded resting heart rate. <span class='beta'>BETA</span> |
+| `health_connect_sleep_duration` | minutes | The last recorded sleep duration. <span class='beta'>BETA</span> |
 | `health_connect_steps` | steps | Total steps taken since midnight. |
 | `health_connect_systolic_blood_pressure` | millimeters of Mercury | The last recorded systolic blood pressure. |
 | `health_connect_total_calories_burned` | kilocalories | Total amount of calories burned since midnight, including active & basal energy burned (BMR). |
