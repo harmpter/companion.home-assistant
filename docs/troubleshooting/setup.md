@@ -108,7 +108,7 @@ Not all but some issues can be solved by simply logging out of the app and loggi
       - If you use multiple servers, make sure the correct servers have each sensor enabled.
     - If you did not install the app from the Play Store, verify that you are using the [`full` flavor](../core/android-flavors.md).
     - If you are using the `person` entity for tracking double check it is [setup properly](#person-entity-is-not-updated-with-recent-location).
-2.  Ensure the app has location permissions granted, all the time. (On Android 12 and newer, allow Precise location when prompted)
+2.  Ensure the app has location permissions granted, all the time. (On Android 12 and later, allow Precise location when prompted)
 3.  Ensure that location (GPS) is enabled on your device.
 4.  Allow background access and turn off 'battery optimizations' for the app.
     - You can check background access in [Settings](https://my.home-assistant.io/redirect/config/) > Companion app. The setting should show a check mark ✔️.

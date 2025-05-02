@@ -30,7 +30,7 @@ This error is usually caused by one of the two following issues:
 ### Response status code was unacceptable: 400
 This occurs when the data sent during set up does not meet Home Assistant's expectations. This most commonly occurs in two circumstances:
 
-* When you are running a version of Home Assistant older than the minimum requirement (currently 0.104.0)
+* When you are running a version of Home Assistant preceding the minimum requirement (currently 0.104.0)
 * You have unexpected characters in your device's name. While setting up the Mobile App integration, we attempt to remove non-standard characters and emoji (as of Home Assistant 0.112). However, it is worth simplifying your device name to remove such characters if you are getting this error.
 
 ### URLSessionTask failed with error

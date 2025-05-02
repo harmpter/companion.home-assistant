@@ -13,7 +13,7 @@ Using your iPhone, open the Companion app settings and under the **Apple Watch**
 <img src='/assets/ios/watch-config.png' alt="Watch cofniguration screen" />
 
 :::info requirements
-The Apple Watch integration requires watchOS 8. In order to install watchOS 8 you must have an Apple Watch Series 3 or newer. You can identify your Apple Watch model [here](https://support.apple.com/HT204507).
+The Apple Watch integration requires watchOS 8. In order to install watchOS 8 you must have an Apple Watch Series 3 or later. You can identify your Apple Watch model [here](https://support.apple.com/HT204507).
 :::
 
 ## Complication types

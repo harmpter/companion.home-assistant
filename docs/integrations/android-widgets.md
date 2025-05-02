@@ -91,6 +91,6 @@ This widget will display items from a configured to-do list. You can open the li
 
 Most widgets allow selecting a theme to use. The available themes depend on your device and the specific widget. Possible options are:
 
- - *Dynamic color*: uses the colors from your device and wallpaper to make the widget fit in with your home screen and device. This theme is only available on supported devices running Android 12 or newer.
+ - *Dynamic color*: uses the colors from your device and wallpaper to make the widget fit in with your home screen and device. This theme is only available on supported devices running Android 12 or later.
  - *Light/dark theme*: uses your device theme to make the widget fit in with your apps.
  - *Transparent*: removes the widget background and allows you to set a text/icon color, to make the widget stand out less.

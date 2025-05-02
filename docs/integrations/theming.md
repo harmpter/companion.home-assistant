@@ -24,6 +24,6 @@ The process needed to get the app to match the Home Assistant theme is different
 
 The app will automatically match the selected theme in Home Assistant and will update in real time when the theme is changed.
 
-### iOS app version 2020.1 or older and Android app
+### iOS app version 2020.1 or earlier and Android app
 
 To change the theme of the app you must use a [service call](https://www.home-assistant.io/docs/scripts/service-calls/) to `frontend.set_theme` in Home Assistant to change them. This will fire an event which the app can detect.
